@@ -1,0 +1,36 @@
+/* V5 — execução do mockup aprovado; marca baseada no panfleto original, não na geração de IA */
+:root{--silver:#d9dee1;--red:#d62834}
+body{background:#101214}
+.demo{background:#292e32;color:#e4e7e8;text-align:center;padding:5px 12px;font-size:9px;letter-spacing:.16em}
+header{height:83px;min-height:83px;max-width:none;padding:0 3vw!important;background:linear-gradient(115deg,#151719 0%,#373a3d 31%,#151719 57%,#0a0d0f 100%)!important;gap:18px}
+header .brand{display:flex;gap:17px;align-items:center;flex:0 0 auto;min-width:0}
+.brand-identity{display:flex;align-items:center;gap:3px;flex-shrink:0}
+header .brand .elo-logo{width:66px;max-width:none;height:68px;max-height:none;object-fit:contain;filter:drop-shadow(0 2px 3px #0009)}
+.brand-lettering{display:flex;flex-direction:column;gap:0;align-items:flex-start}
+.brand-lettering b{font:900 48px/0.92 'Manrope',Arial,sans-serif;letter-spacing:-.075em;color:#e4e8ea;text-shadow:0 2px 0 #676d72,0 4px 5px #000}
+.brand-lettering small{font:800 9px/1 'DM Sans',sans-serif;letter-spacing:.05em;color:#e6e6e6;margin-top:4px}
+.brand-name{border-left:1px solid #7d8588;padding-left:15px;gap:5px}
+.brand-name strong{font-size:15px;letter-spacing:.17em;font-weight:500}
+.brand-name small{font-size:8px;letter-spacing:.14em}
+#nav{margin-left:auto;gap:clamp(9px,1.2vw,21px)}#nav a{font-size:11px;color:#e4e6e7;letter-spacing:.04em}#nav a:hover{color:#fff;border-bottom:2px solid #d62834}
+#nav .nav-contact{margin-left:12px;padding:13px 16px;border-radius:9px!important;font-size:10px;color:#17191b!important;white-space:nowrap}
+.hero{min-height:420px;height:clamp(420px,33vw,570px);overflow:hidden}
+.hero-photo{background-position:center center!important;filter:brightness(.97) saturate(.95)!important}
+.hero-shade{background:linear-gradient(90deg,rgba(5,7,9,.96) 0%,rgba(5,7,9,.84) 25%,rgba(5,7,9,.23) 55%,rgba(5,7,9,.15) 77%,rgba(5,7,9,.54) 100%)!important}
+.hero-content{padding-top:clamp(75px,7vw,115px)!important;padding-bottom:20px!important;margin-left:3vw!important;max-width:640px!important}
+.hero .eyebrow{letter-spacing:.35em;color:#e9e9e9!important;font-size:11px}.hero .eyebrow i{background:#cc2934!important}
+.hero h1{font-size:clamp(40px,4.1vw,65px)!important;line-height:1.04!important;max-width:620px;font-weight:400!important;margin:18px 0 16px}
+.hero h1 em{color:#fff!important}.hero p{font-size:15px;max-width:435px}
+.hero .actions{margin-top:25px}.hero .btn.ghost{display:none}.hero-values{top:0;bottom:0;width:190px;background:#121619d9;padding:20px}.hero-values div{color:#e7ebee}
+.btn.gold,.nav-contact{background:linear-gradient(180deg,#fff 0%,#e7eaed 38%,#aeb7bf 83%,#f4f5f6 100%)!important;color:#14171a!important;border:1px solid #fff!important;box-shadow:inset 0 1px #fff,0 4px 13px #0005;border-radius:9px!important}
+.btn.gold:hover,.nav-contact:hover{background:linear-gradient(180deg,#fff,#cbd2d8)!important}
+.category-showcase{background:linear-gradient(170deg,#e8e9e9,#bfc3c6 60%,#ececec);padding:14px 2.6vw 16px}
+.showcase-title{max-width:none;margin-bottom:12px}.showcase-title h2{font-size:24px;color:#17191a}.showcase-title h2:after{content:'';display:inline-block;width:115px;height:2px;background:#b82b36;margin-left:16px;vertical-align:middle}.showcase-title a{color:#292b2d!important;font-size:10px}
+.category-strip{max-width:none;grid-template-columns:repeat(12,minmax(100px,1fr));gap:4px}.category-strip a{height:115px;background:#c8c9cb}.category-strip img{filter:none;object-fit:cover;height:90px}.category-strip span{position:static;display:block;padding:4px 0 3px;color:#151719;background:transparent;font-size:9px;font-weight:700;letter-spacing:0}
+.intro{background:#191d20;color:#f6f6f6}.intro .eyebrow,.feature .eyebrow{color:#e54a54}.intro h2{color:#fff}.intro .lead,.intro p{color:#eee}.intro .text-link{color:#e8eaec}
+.team{background:#ececed}.team .team-grid article{box-shadow:none;border:0}.team .avatar{max-height:210px}
+.projects{background:#1b1f22;color:#f3f3f3}.projects h2{color:#fff}.projects .section-top p{color:#d9d9d9}
+.clients{background:#e9eaeb}.contact{background:linear-gradient(110deg,#262a2e,#3d4145)!important}
+@media(max-width:1250px){.brand-name{display:none}header{padding:0 2vw!important}.brand-lettering b{font-size:39px}.brand-identity .elo-logo{width:56px!important;height:57px!important}#nav{gap:10px}}
+@media(max-width:900px){header{height:75px;min-height:75px;padding:0 18px!important}.brand-name{display:flex}.brand-name strong{font-size:11px}#nav{margin-left:0}.hero{height:auto;min-height:520px}.hero-content{margin-left:auto!important}.category-strip{grid-template-columns:repeat(12,110px)}.hero-values{display:none}}
+@media(max-width:580px){.brand-name{display:none}.brand-lettering b{font-size:36px}.brand-lettering small{font-size:8px}.hero-content{padding-top:90px!important}.hero h1{font-size:37px!important}.category-showcase{padding:16px 12px}.showcase-title h2{font-size:20px}.showcase-title h2:after{width:40px}.showcase-title a{font-size:8px;max-width:130px;text-align:right}.category-strip{grid-template-columns:repeat(12,108px)}}

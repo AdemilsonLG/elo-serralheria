@@ -1,0 +1,11 @@
+ELO SERRALHERIA ARTÍSTICA — PROTÓTIPO DE HOMOLOGAÇÃO
+
+1. Abra index.html em um navegador para visualizar.
+2. Para publicar no GitHub Pages, coloque os arquivos desta pasta na raiz de um repositório autorizado e configure Settings > Pages > Deploy from a branch > main / (root).
+3. Não publique sem aprovação do cliente para as imagens, logotipos e dados.
+4. Conteúdos institucionais, perfis de sócios e contatos são demonstrativos.
+5. O formulário NÃO envia dados; não há back-end.
+6. As marcas de clientes recebidas não foram incorporadas, aguardando autorização.
+7. Não há senhas, banco de dados, rastreadores ou API de terceiros. As fontes tipográficas são carregadas do Google Fonts (conexão externa).
+8. A logo original foi preservada como referência no pacote original. O cabeçalho usa marca tipográfica provisória.
+9. O site pode ser hospedado em qualquer servidor estático com suporte a HTML/CSS/JS.
